@@ -1,5 +1,5 @@
 {
-    "name": "2amigos/yii2-qrcode-helper",
+    "name": "lizhaomiusi/yii2-qrcode-helper",
     "description": "Create QrCodes based on libqrencode C library.",
     "type": "yii2-extension",
     "keywords": [
@@ -22,8 +22,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/2amigos/yii2-qrcode-helper/issues",
-        "source": "https://github.com/2amigos/yii2-qrcode-helper"
+        "issues": "https://github.com/lizhaomiusi/yii2-qrcode-helper/issues",
+        "source": "https://github.com/lizhaomiusi/yii2-qrcode-helper"
     },
     "require": {
         "yiisoft/yii2": "*"
