@@ -136,7 +136,7 @@ class Encode extends Object
         RgbColor $fgColor = null,
         RgbColor $bgColor = null
     ) {
-        $this->image($text, $outfile, $saveAndPrint, Enum::QR_IMAGE_PNG, $fgColor, $bgColor);
+        return $this->image($text, $outfile, $saveAndPrint, Enum::QR_IMAGE_PNG, $fgColor, $bgColor);
     }
 
     /**
@@ -153,7 +153,7 @@ class Encode extends Object
         RgbColor $fgColor = null,
         RgbColor $bgColor = null
     ) {
-        $this->image($text, $outfile, $saveAndPrint, Enum::QR_IMAGE_JPG, $fgColor, $bgColor);
+        return $this->image($text, $outfile, $saveAndPrint, Enum::QR_IMAGE_JPG, $fgColor, $bgColor);
     }
 
     /**
@@ -178,7 +178,6 @@ class Encode extends Object
             $tab = $this->encode($text);
             $err = ob_get_contents();
             ob_end_clean();
-
             if ($err != '') {
                 Yii::error($err);
             }
@@ -190,7 +189,7 @@ class Encode extends Object
                 : ($imageType === Enum::QR_IMAGE_JPG ? 'jpg' : 'png');
 
 
-            Image::$method(
+            return Image::$method(
                 $tab,
                 $outfile,
                 min(max(1, $this->size), $maxSize),

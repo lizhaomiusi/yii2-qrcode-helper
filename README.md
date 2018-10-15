@@ -1,12 +1,12 @@
 QrCode Helper for Yii2
 ======================
 
-[![Latest Version](https://img.shields.io/github/tag/lizhaomiusi/yii2-qrcode-helper.svg?style=flat-square&label=release)](https://github.com/lizhaomiusi/yii2-qrcode-helper/tags)
+[![Latest Version](https://img.shields.io/github/tag/2amigos/yii2-qrcode-helper.svg?style=flat-square&label=release)](https://github.com/2amigos/yii2-qrcode-helper/tags)
 [![Software License](https://img.shields.io/badge/license-BSD-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/lizhaomiusi/yii2-qrcode-helper/master.svg?style=flat-square)](https://travis-ci.org/lizhaomiusi/yii2-qrcode-helper)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/lizhaomiusi/yii2-qrcode-helper.svg?style=flat-square)](https://scrutinizer-ci.com/g/lizhaomiusi/yii2-qrcode-helper/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/lizhaomiusi/yii2-qrcode-helper.svg?style=flat-square)](https://scrutinizer-ci.com/g/lizhaomiusi/yii2-qrcode-helper)
-[![Total Downloads](https://img.shields.io/packagist/dt/lizhaomiusi/yii2-qrcode-helper.svg?style=flat-square)](https://packagist.org/packages/lizhaomiusi/yii2-qrcode-helper)
+[![Build Status](https://img.shields.io/travis/2amigos/yii2-qrcode-helper/master.svg?style=flat-square)](https://travis-ci.org/2amigos/yii2-qrcode-helper)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/2amigos/yii2-qrcode-helper.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-qrcode-helper/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/2amigos/yii2-qrcode-helper.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-qrcode-helper)
+[![Total Downloads](https://img.shields.io/packagist/dt/2amigos/yii2-qrcode-helper.svg?style=flat-square)](https://packagist.org/packages/2amigos/yii2-qrcode-helper)
 
 
 QrCode helper allows you to render QrCodes on your Yii2 applications.
@@ -18,12 +18,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require lizhaomiusi/yii2-qrcode-helper:~1.0
+php composer.phar require 2amigos/yii2-qrcode-helper:~1.0
 ```
 or add
 
 ```json
-"lizhaomiusi/yii2-qrcode-helper" : "~1.0"
+"2amigos/yii2-qrcode-helper" : "~1.0"
 ```
 
 to the require section of your application's `composer.json` file.

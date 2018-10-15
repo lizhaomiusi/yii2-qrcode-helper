@@ -38,7 +38,7 @@ class QrCode
         $margin = 4,
         $saveAndPrint = false
     ) {
-        static::encode($text, $outfile, $level, $size, $margin, $saveAndPrint, Enum::QR_FORMAT_PNG);
+        return static::encode($text, $outfile, $level, $size, $margin, $saveAndPrint, Enum::QR_FORMAT_PNG);
     }
 
 
@@ -118,10 +118,10 @@ class QrCode
 
         switch ($type) {
             case Enum::QR_FORMAT_PNG:
-                $enc->encodePNG($text, $outfile, $saveAndPrint);
+                return $enc->encodePNG($text, $outfile, $saveAndPrint);
                 break;
             case Enum::QR_FORMAT_JPG:
-                $enc->encodeJPG($text, $outfile, $saveAndPrint);
+                return $enc->encodeJPG($text, $outfile, $saveAndPrint);
                 break;
             case Enum::QR_FORMAT_RAW:
                 return $enc->encode($text, $outfile, true);

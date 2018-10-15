@@ -40,10 +40,12 @@ class Image
     ) {
 
         $image = static::image($frame, $pixelPerPoint, $outerFrame, $fgColor, $bgColor);
-
+        return  $image;
         if ($filename === false) {
+            ob_clean();
             Header("Content-type: image/png");
             ImagePng($image);
+
         } else {
             ImagePng($image, $filename);
             if ($saveAndPrint === true) {
